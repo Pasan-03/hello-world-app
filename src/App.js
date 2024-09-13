@@ -5,22 +5,22 @@ function App() {
   const [experts, setExperts] = useState([
     {
       name: 'Expert 1',
-      image: 'https://via.placeholder.com/150',
+      image: './images/teacher1.jpg',
       description: 'Expert 1 Description',
     },
     {
       name: 'Expert 2',
-      image: 'https://via.placeholder.com/150',
+      image: './images/teacher2.jpg',
       description: 'Expert 2 Description',
     },
     {
       name: 'Expert 3',
-      image: 'https://via.placeholder.com/150',
+      image: './images/teacher3.jpg',
       description: 'Expert 3 Description',
     },
     {
       name: 'Expert 4',
-      image: 'https://via.placeholder.com/150',
+      image: './images/teacher4.jpg',
       description: 'Expert 4 Description',
     },
   ]);
@@ -28,32 +28,32 @@ function App() {
   const [testimonials, setTestimonials] = useState([
     {
       name: 'Testimonial 1',
-      image: 'https://via.placeholder.com/50',
+      image: './images/student1.jpg',
       description: 'Testimonial 1 Description',
     },
     {
       name: 'Testimonial 2',
-      image: 'https://via.placeholder.com/50',
+      image: './images/student2.jpg',
       description: 'Testimonial 2 Description',
     },
     {
       name: 'Testimonial 3',
-      image: 'https://via.placeholder.com/50',
+      image: './images/student3.jpg',
       description: 'Testimonial 3 Description',
     },
     {
       name: 'Testimonial 4',
-      image: 'https://via.placeholder.com/50',
+      image: './images/student4.jpg',
       description: 'Testimonial 4 Description',
     },
     {
       name: 'Testimonial 5',
-      image: 'https://via.placeholder.com/50',
+      image: './images/student5.jpg',
       description: 'Testimonial 5 Description',
     },
     {
       name: 'Testimonial 6',
-      image: 'https://via.placeholder.com/50',
+      image: './images/student6.jpg',
       description: 'Testimonial 6 Description',
     },
   ]);
@@ -62,7 +62,7 @@ function App() {
     <div className="container">
       <header>
         <div className="logo">
-          <h1>EduFusion</h1>
+          <h1>genZedu</h1>
           <p>WORK SMARTER NOT HARDER</p>
         </div>
         <nav>
@@ -88,7 +88,7 @@ function App() {
       <main>
         <section className="hero">
           <div className="hero-image">
-            {/* Add Image Here */}
+          {'./images/student6.jpg'}
           </div>
           <div className="hero-content">
             <h2>"EduFusion makes learning effortless, empowering students to achieve their best with confidence."</h2>
@@ -184,7 +184,7 @@ function App() {
           </ul>
         </div>
         <div className="footer-copyright">
-          <p>Copyright © 2023 EduFusion. All rights reserved.</p>
+          <p>Copyright 2023 EduFusion. All rights reserved.</p>
         </div>
       </footer>
     </div>
