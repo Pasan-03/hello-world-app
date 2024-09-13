@@ -1,38 +1,171 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1F2937;
+  color: #E5E5E5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  color: #9CA3AF;
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a:hover {
+  color: #E5E5E5;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+.hero {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 0;
+}
+
+.hero-image {
+  width: 50%;
+  background-image:'./images/student6.jpg';
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-content {
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.about {
+  width: 100%;
+  padding: 3rem 0;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.experts {
+  width: 100%;
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experts-grid {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.expert-card {
+  width: 30%;
+  background-color: #2D3748;
+  padding: 1rem;
+  text-align: center;
+}
+
+.expert-card img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.testimonials {
+  width: 100%;
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonials-grid {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.testimonial-card {
+  width: 30%;
+  background-color: #2D3748;
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.testimonial-quote {
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: #374151;
+  margin-bottom: 1rem;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.testimonial-author img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+footer {
+  width: 100%;
+  padding: 1rem;
+  background-color: #1F2937;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.footer-links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links li {
+  margin: 0 1rem;
+}
+
+.footer-copyright {
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid #374151;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import './App.css'; // Import the CSS file
 
 function App() {
   const [experts, setExperts] = useState([
@@ -88,7 +89,7 @@ function App() {
       <main>
         <section className="hero">
           <div className="hero-image">
-          {'./images/student6.jpg'}
+            {'./images/student6.jpg'}
           </div>
           <div className="hero-content">
             <h2>"EduFusion makes learning effortless, empowering students to achieve their best with confidence."</h2>
